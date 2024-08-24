@@ -1,0 +1,5 @@
+defaultProject: dk4learning-433311
+defaultLocation: northamerica-northeast1
+defaultDataset: dataform
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0
