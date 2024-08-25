@@ -3,6 +3,7 @@ config {
   dependencies: ["complaints_tracking_load", "company_category"] 
   }
 
+--Loading the final RADD table
 truncate table ds_gads.company_360;
 
 insert into ds_gads.company_360
