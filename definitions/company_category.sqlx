@@ -1,4 +1,7 @@
-config { type: "operations" }
+config { 
+  type: "operations",
+  dependencies: ["w_company_score"] 
+  }
 
 truncate table ds_gads.company_category;
 
@@ -13,5 +16,4 @@ SELECT
     current_timestamp()
   FROM
     ds_gads.w_company_score as intermediate_table;
-
 
